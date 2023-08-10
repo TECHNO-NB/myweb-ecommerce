@@ -11,7 +11,7 @@
     padding: 5rem;
     background-color: #ededed;
     color: #000;
-    flex-wrap: wrap;
+   
 }
 
 .home-left {
@@ -236,19 +236,29 @@
 @media (max-width:600px) {
     .box {
       grid-template-columns:50px;
-      margin-right: 100px;
       margin-top: 3rem;
       
     } 
     
+    .home-right{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width: 100%;
+       }
     .home-right img {
-     width: 100%;
+        margin-top: 1.3rem;
+       width: 140%;
+       align-self: center;
     }
     .product-left{
         text-align: center;
         width: 100%;
         border: none;
         border-bottom: 5px solid black;
+    }
+    .product-left h1{
+        font-size: 1.2rem;
     }
    .product-left h5{
     font-size:1.3rem;
@@ -262,15 +272,27 @@
     background: #ededed;
 }
 .container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
    flex-direction: column;
 
 }
+.home-left h1 {
+    font-size: 4.2vh;
+    
+}
 .div{
 display:flex;
+align-items: center;
+justify-content: center;
 text-align: center;
 gap:1rem;
 
 
+}
+.product-main h1{
+   font-size: 7vh;
 }
 
    

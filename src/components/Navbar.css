@@ -72,6 +72,9 @@ ul i{
     font-size: 2rem;
     cursor: pointer;
 }
+#icon{
+    display: none;
+}
 @media (max-width:1200px) {
     ul{
         position: fixed;
@@ -90,6 +93,7 @@ ul i{
     #icon{
         font-size: 3.5rem;
         color:#fff;
+        display: block;
     }
     .box {
       grid-template-columns: auto auto;

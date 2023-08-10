@@ -4,12 +4,9 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Cart from './components/Cart'
 
-
-
-
-
 const App = () => {
   return (
+   
     <BrowserRouter>
     <Navbar/>
     <Routes>
@@ -17,6 +14,7 @@ const App = () => {
       <Route path='/Cart' element={<Cart/>}></Route>
     </Routes>
     </BrowserRouter>
+
   )
 }
 

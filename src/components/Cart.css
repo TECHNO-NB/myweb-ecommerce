@@ -1,0 +1,32 @@
+:root {
+    --bg-color: #F50057;
+}
+
+.cart-main{
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    gap:3rem;
+}
+
+.cart-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    width: 50%;
+    background: #F50057;
+    border-radius: 10%;
+    padding: 1rem;
+
+   
+}
+
+
+.add-less{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
